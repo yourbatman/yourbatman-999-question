@@ -1,0 +1,20 @@
+# Contact me if any problem occurred. mailto:yourbatman@aliyun.com | https://yourbatman.cn
+# 定义每种文件的属性，以方便 git 帮我们统一管理
+# 要匹配的文件模式 属性1 属性2 ...
+*.java linguist-language=Java
+*.js linguist-language=js
+*.css linguist-language=css
+*.html linguist-language=html
+*.ftl linguist-language=html
+
+# 规定换行符为lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.c text eol=lf
+*.hpp text eol=lf
+*.cmake text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# 文件的行尾自动转换。如果是文本文件，则在文件入Git库时，行尾自动转换为LF。如果已经在入Git库中的文件的行尾是GRLF，则文件在入Git库时，不再转换为LF
+text=auto

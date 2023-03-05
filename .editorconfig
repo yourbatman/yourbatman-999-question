@@ -1,0 +1,61 @@
+# Contact me if any problem occurred. mailto:yourbatman@aliyun.com | https://yourbatman.cn
+root = true
+
+# 默认采用4个空格缩进 而非tab键
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = true
+insert_final_newline = true
+# 一行最大字符数，超过折行
+max_line_length = 200
+tab_width = 4
+
+# 不是所有编辑器都支持的属性
+# quote_type = double
+# 大括号左侧应该放在下一行(另起一行)
+# curly_bracket_next_line = false
+# 括号和圆括号周围的空格应该是什么
+# spaces_around_brackets = outside
+# 表示连续缩进大小。用于区分代码块和连续行
+# continuation_indent_size = 40
+
+### 适用于所有语言的通用IntelliJ选项 ###
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = false
+ij_smart_tabs = false
+ij_visual_guides = none
+ij_wrap_on_typing = false
+
+# [*.java]
+# java_class_path = ":"
+# import导入多少个时  自动换成通配符
+# wildcard_import_limit = 10
+
+[*.js]
+indent_size = 2
+tab_width = 2
+
+[*.{yml, yaml}]
+indent_size = 2
+tab_width = 2
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+# 若有js文件，建议开启此项
+# [*.js]
+# quote_type = single
+
+# [*.{xml, xsd}]
+# indent_size = 4
+# tab_width = 4
+
+[*.{html, less, css, json}]
+indent_size = 2
+tab_width = 2
