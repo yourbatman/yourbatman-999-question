@@ -9,14 +9,14 @@ import org.junit.jupiter.api.Test;
  *
  * @author YourBatman's home page. <a href=https://yourbatman.cn>https://yourbatman.cn</a>
  * @author YourBatman. <a href=mailto:yourbatman@aliyun.com>Send email to me</a>
- * @author wechat:fsx641385712
+ * @author wechat:yourbatman-u
  * @since 0.0.1
  */
 public class Tester {
 
     @Test
     public void fun() {
-        List<Integer> numbers = new ArrayList<>();
+        List numbers = new ArrayList<>();
         numbers.add(18);
 
         List newNumbers = numbers;
