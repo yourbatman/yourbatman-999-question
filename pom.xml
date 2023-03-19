@@ -9,6 +9,7 @@
     <modules>
         <module>q001</module>
         <module>q002</module>
+        <module>q003</module>
     </modules>
 
     <properties>
